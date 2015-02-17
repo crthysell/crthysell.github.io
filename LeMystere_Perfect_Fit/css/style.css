@@ -1,0 +1,330 @@
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600);
+
+
+.form-control::-webkit-input-placeholder { 
+	font-family: "garamond", arial, sans-serif;
+	font-size: 15px;
+	margin:auto 0;
+	 
+}
+
+.input-group-btn {
+	font-family: "garamond", arial, sans-serif;
+	font-size: 18px;
+
+}
+
+#header-nav1 {
+	padding-top: 20px;
+}
+
+#header-nav1 a {
+	text-decoration: none;
+	color: #777;
+	font-family: "open sans", arial, sans-serif;
+	font-size: .8em;
+}
+
+#header-nav1 a:hover {
+	text-decoration: underline;
+	color:#9FA2A7;
+}
+
+#freeshippping p {
+	font-family: "garamond", arial, serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: -10px;
+	margin-left: -5px;
+}
+
+#logo {
+	margin: 0 0 30px 0;
+}
+
+#logo img {
+	margin-top: -60px;
+}
+
+
+.navbar-default {
+	margin-bottom: 0px;
+	width: 105%;
+	margin-left: -5px;
+
+}
+
+/*#top-nav {
+	background-color: #EBECED;
+	/*padding: 11px 0 11px 0;
+
+}
+*/
+
+.navbar-default a {
+	color: #555555;
+	text-decoration: none;
+	font-size: 1.1em;
+	margin: 0 25px 0 25px;
+	
+}
+
+.navbar-default .bras {
+	margin-left: -45px;
+
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+	border-radius: 0px;
+
+}
+
+.jumbotron {
+	background-image: url('../Untitled.png');
+	background-size:cover;
+	background-position: center; 
+	min-height: 400px;
+}
+
+.jumbotron h2 {
+	color: #9FA2AA;
+	font-family: "garamond", arial, serif;
+	font-size: 2.3em;
+	margin-left: 20px;
+
+}
+
+.jumbotron p {
+	color: #9FA2AA;
+	font-family: "open sans", arial, sans-serif;
+	font-size: 1em;
+	margin-left: 20px;
+}
+
+.jumbotron a {
+	color: #77777B;
+	font-family: "open sans", arial, sans-serif;
+	font-size: 1em;
+	text-decoration: underline;
+}
+
+
+.dropdown-menu {
+	background-color: rgba(242, 244, 246, 0.8); 
+	font-family: "open sans", arial, sans-serif;
+
+}
+
+.filter-button {
+	background-color: #77777B;
+	color: white;
+	font-family: "open sans", arial, sans-serif;
+
+}
+
+label {
+	padding-left: 7px;
+	color: #77777B;
+}
+
+.thumbnail img {
+
+	max-width: 75%;
+}
+
+.caption {
+	text-align: center;
+}
+
+.caption h3 {
+
+	color: #5A5555;
+	font-family: "garamond", arial, sans-serif;
+	font-size: 1.3em;
+}
+
+.caption p {
+
+	color: #9FA2A5;
+	font-family: "open sans", arial, sans-serif;
+}
+
+#clear-filter {
+	cursor: pointer;
+	padding-right: 32px;
+	padding-top: 6px;
+
+}
+
+#clear-filter:hover {
+	text-decoration: underline;
+}
+
+#bottom-nav a {
+	text-decoration: none;
+}
+
+#bottom-footer a:hover {
+	color:#5A5A5A;
+}
+
+#bottom-footer a {
+	margin-top: 8px;
+	margin-right: 5px;
+}	
+
+#footer {
+	background-color: #9B9A98;
+	padding: 10px 0 10px 0;
+	margin-bottom: 40px;
+}
+
+#footer a {
+	color: white;
+	text-decoration: none;
+}
+
+#footer-nav {
+	margin: 11px 0 11px 0;
+
+}
+
+#footer-nav a {
+	text-decoration: none;
+	color: #777;
+	font-family: "open sans", arial, sans-serif;
+	font-size: .8em;
+}
+
+#footer-nav a:hover {
+	text-decoration: underline;
+	color:#9FA2A7;
+}
+
+#copyright {
+	color:#9FA2A5;
+	font-family: "open sans", arial, sans-serif;
+	font-size: .8em;
+}
+
+/*    .required-email-large {
+    	display: inline-block;
+
+    }
+
+    .required-email-small {
+    	display: none;
+   
+    }*/
+
+
+/* BOOTSTRAP NAVBAR RESPONSIVE OVERRIDE*/
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .topinputbar {
+	display: none;
+
+	}
+
+	.navbar-default a {
+	margin: 0 8px 0 8px;
+	
+
+    }
+
+    hr {
+    	display: none;
+    }
+
+    #freeshippping {
+    	margin-left:73%;
+    	margin-top: 20px;
+    }
+
+    
+
+     .myaccountnav {
+   		margin-left: 70%;
+    	
+	}
+
+	    .dropdowncontainer {
+    	width: 100%;
+    	margin: 0 auto;
+    }
+
+    .filter-button {
+    	width: 40%;
+    	margin-left: 25%;
+    }
+
+    .dropdown-toggle {
+    	width: 9%
+    }
+
+    #clear-filter {
+    	padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+   	 .topinputbar {
+		display: none;
+
+    }
+
+    hr {
+    	display: none;
+    }
+
+    .myaccountnav {
+    	margin-left: 70%;
+    }
+
+    .dropdowncontainer {
+    	width: 100%;
+    	margin: 0 auto;
+    }
+
+    .filter-button {
+    	width: 79%;
+    }
+
+    .dropdown-toggle {
+    	width: 19%
+    }
+
+	.herocopy {
+		margin-top: 200px;
+		background: rgba(255, 255, 255,0.7);
+
+
+	}
+
+    #freeshippping {
+    display:none;
+
+    }
+
+    .logo {
+
+    padding-top: 80px;
+
+    }
+
+
+
+}
