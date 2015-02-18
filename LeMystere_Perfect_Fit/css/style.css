@@ -231,7 +231,7 @@ label {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 761px) and (max-width: 991px) {
 
     .topinputbar {
 	display: none;
@@ -279,7 +279,7 @@ label {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 760px) {
 
    	 .topinputbar {
 		display: none;
@@ -324,6 +324,11 @@ label {
     padding-top: 80px;
 
     }
+
+    .navbar-default .bras {
+	margin-left: 25px;
+
+}
 
 
 
